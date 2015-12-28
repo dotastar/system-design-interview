@@ -14,6 +14,7 @@ You can dive into each topic if you have time. Of course, welcome to add your th
 - [ ] [Company Engineering Blogs](#blog)
 - [ ] [Products and Systems](#system)
 - [ ] [Hot Questions and Reference](#qs)
+- [ ] [Good Books](#bk)
 - [ ] [Object Oriented Design](#ood)
 
 ###[[⬆]](#toc) <a name='tips'>System Design Interview Tips:</a>
@@ -91,7 +92,8 @@ If you are going to have an onsite with a company, you should read their enginee
 * [Pinterest Engineering Blog](http://engineering.pinterest.com/)
 * [Twilio Engineering Blog](http://www.twilio.com/engineering)
 * [Bitly Engineering Blog](http://word.bitly.com/)
-
+* [Uber Engineering Blog ](https://eng.uber.com/)
+* [Godaddy Engineering](http://engineering.godaddy.com/)
 
 ###[[⬆]](#toc) <a name='system'>Products and Systems:</a>
 
@@ -124,7 +126,9 @@ The following papers/articles/slides can help you to understand the general desi
 * [TripAdvisor Architecture](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
 * [Scaling Mailbox](http://highscalability.com/blog/2013/6/18/scaling-mailbox-from-0-to-one-million-users-in-6-weeks-and-1.html)
 * [Salesforce Architecture ](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-* [ESPN's Architecture](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+* [ESPN Architecture](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+* [Uber Architecture](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)
+* [DropBox Design](https://www.youtube.com/watch?v=PE4gwstWhmc)
 
 ###[[⬆]](#toc) <a name='qs'>Hot Questions and Reference:</a>
 
@@ -132,21 +136,21 @@ There are some good references for each question. The references here are slides
 
 **Design a CDN network**  
 Reference:  
-* [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci).
+* [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
 
 **Design a Google document system**  
 Reference:  
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
-* [Differential Synchronization](https://neil.fraser.name/writing/sync/).
+* [Differential Synchronization](https://neil.fraser.name/writing/sync/)
 
 **Design a random ID generation system**  
 Reference: 
 * [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake) 
-* [snowflake](https://github.com/twitter/snowflake/).
+* [snowflake](https://github.com/twitter/snowflake/)
 
 **Design a key-value database**  
 Reference:   
-* [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis).
+* [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 
 **Design the Facebook news seed function**   
 Reference:   
@@ -157,7 +161,7 @@ Reference:
 **Design the Facebook timeline function**   
 Reference: 
 * [Building Timeline](https://www.facebook.com/note.php?note_id=10150468255628920) 
-* [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html).
+* [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)
 
 **Design a function to return the top k requests during past time interval**   
 Reference:  
@@ -176,12 +180,12 @@ Reference:
 Reference:   
 * [Building out the infrastructure for Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920)
 * [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920) 
-* [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf).
+* [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)
 
 **Design a picture sharing system**   
 Reference:   
 * [Flickr Architecture](http://highscalability.com/flickr-architecture) 
-* [Instagram Architecture](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html). 
+* [Instagram Architecture](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
 
 **Design a search engine**   
 Reference:  
@@ -196,15 +200,15 @@ Reference:
 **Design a tinyurl system**    
 Reference: 
 * [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
-* [URL Shortener API](https://developers.google.com/url-shortener/?csw=1).
+* [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
 **Design a garbage collection system**    
 Reference:   
-* [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/).
+* [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
  
 **Design a scalable web crawling system**    
 Reference:  
-* [Design and Implementation of a High-Performance Distributed Web Crawler](http://cis.poly.edu/suel/papers/crawl.pdf)
+* [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
 
 **Design the Facebook chat function**    
 Reference:   
@@ -218,7 +222,13 @@ Reference:
  
 **Design a cache system**    
 Reference:   
-* [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached). 
+* [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
+
+###[[⬆]](#toc) <a name='bk'>Good Books:</a>
+
+* [Big Data: Principles and best practices of scalable realtime data systems](http://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
+* [Real-Time Analytics: Techniques to Analyze and Visualize Streaming Data](http://www.amazon.com/Real-Time-Analytics-Techniques-Visualize-Streaming/dp/1118837916)
+* [Building Microservices](http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358)
 
 ###[[⬆]](#toc) <a name='ood'>Object Oriented Design:</a>
 
